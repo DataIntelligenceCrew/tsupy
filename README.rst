@@ -15,10 +15,18 @@ Install
 
 To install the package successfully, first install `gopy <https://github.com/go-python/gopy>`_. Then, make sure you have the `netCDF C library <https://downloads.unidata.ucar.edu/netcdf/>`_ is installed.
 
-To compile the package, run this inside tsupy directory:
-`make build`
+To compile the package, run this inside tsupy directory: ::
+
+   `make build`
 
 Happy network analysis! 
+
+Documentation
+--------------
+
+To use the built-in methods, import package by using this: ::
+
+   `from tsupy import tsubasa`
 
 License
 -----------
